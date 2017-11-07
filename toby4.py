@@ -2296,7 +2296,7 @@ def bot(op):
 #-----------------------------------------------
             elif msg.text in ["PING","Ping","ping","Samlekom","samlekom"]:
 				ki.sendText(msg.to,"Mamen 魛渷魛厰Har Har魪靠")
-				kk.sendText(msg.to,"Ngentod 魛渷魛厰Har Har魪靠")
+				kk.sendText(msg.to,"Ngopi 魛渷魛厰Har Har魪靠")
 				kc.sendText(msg.to,"Yuuk 魛渷魛厰Har Har魪靠")
 #-----------------------------------------------
             elif msg.text in ["Responsename","respon"]:
@@ -2432,9 +2432,15 @@ def autolike():
 				if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
 					try:    
 						cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Anton http://line.me/ti/p/~antonlou")
+						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Anton 
+
+http://line.me/ti/p/~antonlou
+")
 						kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"BLVCK DRVGON CBOT188 Enjoy and relax sir!")
+						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Anton 
+
+http://line.me/ti/p/~antonlou
+")
 						print "DiLike"
 					except:
 							pass
