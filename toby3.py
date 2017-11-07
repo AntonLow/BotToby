@@ -124,9 +124,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Owner : line://ti/p/~antonlou",
+    'message':"Owner : http://line.me/ti/p/~antonlou",
     "lang":"JP",
-    "comment":"Owner : line://ti/p/~antonlou",
+    "comment":"Owner : http://line.me/ti/p/~antonlou",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
@@ -2432,9 +2432,16 @@ def autolike():
 				if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
 					try:    
 						cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By line:://ti/p/~tobyg74")
+						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By [BLVCK DRAGON]™ 
+
+http://line.me/ti/p/~antonlou
+")
 						kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Channel Youtube : TobyGaming74")
+						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"[BLVCK DRAGON]™ 
+CNN Bot Division  
+BD.CBOT-188 
+Enjoy and relax sir!
+")
 						print "DiLike"
 					except:
 							pass
