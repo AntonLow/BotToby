@@ -138,7 +138,6 @@ wait = {
     "Protectcancel":False,
     "ProtectionOn":False,
     "atjointicket":True
-    "winvite":True
     }
 
 wait2 = {
@@ -1825,7 +1824,6 @@ def bot(op):
 		kc.sendText(msg.to, text)
 #-----------------------------------------------
             elif msg.text in ["Sp","Speed","speed"]:
-				if msg.from_ in admin:
                 		start = time.time()
                 		ki.sendText(msg.to, "Writing server speed ─অই͜⟦㉿ Континентальный ™ ⟧ ೋ")
                 		elapsed_time = time.time() - start
